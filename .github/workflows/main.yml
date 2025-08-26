@@ -1,0 +1,8 @@
+            - name: Build an RPM
+  # You may pin to the exact commit or the version.
+  # uses: robertdebock/rpmbuild-action@de58ddd728996ee3447f32a60ab5362ab07b96da
+  uses: robertdebock/rpmbuild-action@1.1.1
+  with:
+    # The distribution to run the build on.
+    distribution: # optional, default is centos-8
+          
